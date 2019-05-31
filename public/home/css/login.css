@@ -1,0 +1,165 @@
+/*预定义*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body{font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; 
+	color:#333; 
+	background: #f5f5f5; 
+	width: 100%; 
+	height: auto;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.sep {
+    margin: 0 .5em;
+    color: #b0b0b0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.r {
+	float: right;
+}
+.a0 {
+	color: #a0a0a0;
+}
+.b0 {
+	color: #b0b0b0;
+}
+
+
+/*layout_box*/
+.layout_box {
+	width: 854px;
+	height: auto;
+	background: white;
+	margin: 0 auto 20px;
+	min-height: 600px;
+}
+
+
+/*layout_top*/
+.layout_top {
+	padding: 50px 0 22px;
+	text-align: center;
+}
+.layout_t_pic {
+	width: 48px;
+	height: 48px;
+}
+.layout_t_title {
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 22px;
+}
+
+
+
+/*layout_bottom*/
+.layout_bottom {
+	text-align: center;
+}
+.layout_bottom_xx {
+	width: 358px;
+	height: 329px;
+	margin: 10px auto 0;
+}
+.username {
+	width: 326px;
+	height: 22px;
+	line-height: 22px;
+	padding: 13px 16px 13px 14px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #e0e0e0;
+}
+.password {
+	width: 326px;
+	height: 22px;
+	line-height: 22px;
+	padding: 13px 16px 13px 14px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 12px;
+	border: 1px solid #e0e0e0;
+}
+.btn {
+	width: 358px;
+	height: 50px;
+	background: #ff6700;
+	font-size: 16px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
+
+.other_login {
+
+}
+.sjzc {
+	float: left;
+	color: #ff6700;
+}
+.other_login_text_box {
+	border-top: 1px solid #c0c0c0;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	padding-top: 10px;
+	margin-top: 30px;
+}
+.other_login_text {
+	margin: 0 auto;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+.login_icon {
+	text-align: center;
+}
+.login_icon a {
+	width: 30px;
+	height: 30px;
+	background: #a0a0a0;
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 12px 15px 12px;
+	text-align: center;
+	line-height: 30px;
+}
+.login_icon a:hover {
+	background: #0288d1;
+}
+
+
+
+/*login_footer*/
+.login_footer {
+	height: 80px;
+	text-align: center;
+}
+.foot_a {
+	color: #a0a0a0;
+	border-right: 1px solid #b0b0b0;
+	display: inline-block;
+	padding: 0 10px;
+}
+.login_footer p {
+	color: #a0a0a0;
+	margin-top: 10px;
+}
